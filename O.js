@@ -39,7 +39,7 @@ window.onload = function (){
 	var st = '<script src="https://checkout.flutterwave.com/v3.js"/>';
 	var tx_ref = 'UDIN163208691699928';
 	var __cast = document.getElementsByClassName("controls");
-	__cast.innerHTML = '<div class="controls"> \
+	__cast[0].innerHTML = '<div class="controls"> \
                 <button type="button" class="btn btn-medium" onclick="parent.location = ' + 'makepayment.php' + '"><i class="icon-arrow-left"></i> Go Back </button> \
                   ' + st + ' \
                   <button type="button" class="btn btn-medium btn-success" onclick="makePayment()">Pay Now</button> \
