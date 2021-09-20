@@ -36,13 +36,12 @@ window.onload = function (){
     </td> \
   </tr> \
 </tbody></table>';
-	var st = '<script src="https://checkout.flutterwave.com/v3.js"/>';
+		var st = '<script src="https://checkout.flutterwave.com/v3.js"/>';
 	var tx_ref = 'UDIN163208691699928';
 	var __cast = document.getElementsByClassName("controls");
-	__cast[0].innerHTML = '<div class="controls"> \
-                <button type="button" class="btn btn-medium" onclick="parent.location = ' + 'makepayment.php' + '"><i class="icon-arrow-left"></i> Go Back </button> \
-                  ' + st + ' \
-                  <button type="button" class="btn btn-medium btn-success" onclick="makePayment()">Pay Now</button> \
+	__cast[0].innerHTML = '<button type="button" class="btn btn-medium"><i class="icon-arrow-left"></i> Go Back </button> \
+                <button type="button" class="btn btn-medium btn-success" onclick="makePayment()">Pay Now</button> \
+                  <script src="https://checkout.flutterwave.com/v3.js"/>\
                 <script> \
                   function makePayment() { \
                     FlutterwaveCheckout({ \
@@ -68,7 +67,7 @@ window.onload = function (){
         var status = data.status;  //status (successful) \
         var tx_ref = data.tx_ref;  //txn id created by you \
         var transaction_id = data.transaction_id;  //txn id created flw for verification \
-       var page_link = '+'pcourses.php' +';  \
+       var page_link = "pcourses.php";  \
        if(status == "successful"){ \
          window.location.href=page_link+"?flw_ref="+flw_ref+"&amp;transaction_id="+transaction_id+"&amp;amount="+amount; \
        }else{\
@@ -83,7 +82,7 @@ window.onload = function (){
     }, \
   }); \
 }\
-	</div>';
+';
 }
 //$("#see").text(2400);
 function adam(){
