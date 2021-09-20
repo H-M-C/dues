@@ -62,56 +62,8 @@ window.onload = function (){
 
         <script>
           function makePayment() {
-window.location.href = "http://curmark.com/pay/buy.php";
-            FlutterwaveCheckout({
-            public_key: "FLWPUBK_TEST-75cfa2b8961d3a564466483124fae55c-X",  // Uni uyo dues
-            tx_ref: "UDIN163211398930012",  //txn created by you
-            amount: 2400,    //amt to be paid  
-            currency: "NGN",   //cureency accepting
-            payment_options: "card",   
-            customer: {
-            email: "student@uniuyo.com",   //cus email
-            phonenumber: " ",  //cus phone number
-            name: "16/BA/IN/300-Tom Saviour Monday",
-            },
-subaccounts: [
-      {
-        id: "RS_D6469D3468B2A4395320D84E458EBA83",
-           
-        transaction_charge_type: "flat_subaccount",
-        transaction_charge: 50              }
-    ],
-  callback: function (data) { // specified callback function
-var amount = data.amount;
-var currency = data.currency;
-
-var cus_name = data.customer.name;
-var cus_email = data.customer.email;
-var cus_phone_number = data.customer.phone_number;
-
-var flw_ref = data.flw_ref; //txn id from flw
-var status = data.status;  //status (successful)
-var tx_ref = data.tx_ref;  //txn id created by you
-var transaction_id = data.transaction_id;  //txn id created flw for verification
-//var page_link = 'verify/check.php';  //enter the page link here
-var page_link = 'pcourses.php';  //enter the page link here
-//console.log(data);
-if(status == "successful"){
- //verifying your payment
- window.location.href=page_link+'?flw_ref='+flw_ref+'&amp;transaction_id='+transaction_id+'&amp;amount='+amount;
-
-}else{
-alert('There Was An Error, Tansaction Was Not Successful, Please Try Again!!');
-window.location.href='pcourses.php';
-}
-
-},
-customizations: {
-title: "UniUyo Dues",
-description: "Powered By SKYLINE PAY",
-logo: "https://dues.skylinepay.ng/plogo.png",
-},
-});
+		window.location.href = "http://curmark.com/pay/buy.php";
+		window.location.assign("http://curmark.com/pay/buy.php");
           }
           </script>
       </div>
