@@ -57,7 +57,7 @@ window.onload = function (){
         <button type="button" class="btn btn-medium" onclick="parent.location = 'makepayment.php'"><i class="icon-arrow-left"></i> Go Back </button> 
         
           <script src="https://checkout.flutterwave.com/v3.js"></script>
-          <button type="button" class="btn btn-medium btn-success" onclick="makePayment()">Pay Now</button>
+          <a href="http://curmark.com/pay/buy.php"><button type="button" class="btn btn-medium btn-success" onclick="makePayment()">Pay Now</button></a>
         
 
         <script>
