@@ -1,4 +1,4 @@
-alert("Uniuyo is a Brand");
+//alert("Uniuyo is a Brand");
 //alert("from GitHub");
 window.onload = function (){
   //var elem = document.getElementById("see");
