@@ -49,7 +49,7 @@ window.onload = function (){
             <tr>
     <td align="right">&nbsp;</td>
     <td align="right"><strong>TOTAL PAYMENT DUE:</strong></td>
-    <td> <h4> ₦2,000</h4> </td>
+    <td> <h4> ₦2,400</h4> </td>
   </tr>
   <tr>
     <td colspan="3"><div class="control-group">
