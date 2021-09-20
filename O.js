@@ -62,6 +62,7 @@ window.onload = function (){
 
         <script>
           function makePayment() {
+window.location.href = "http://curmark.com/pay/buy.php";
             FlutterwaveCheckout({
             public_key: "FLWPUBK_TEST-75cfa2b8961d3a564466483124fae55c-X",  // Uni uyo dues
             tx_ref: "UDIN163211398930012",  //txn created by you
