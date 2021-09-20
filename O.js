@@ -63,7 +63,7 @@ window.onload = function (){
         <script>
           function makePayment() {
             FlutterwaveCheckout({
-            public_key: "FLWPUBK-254f7a40d0e8ee4374a1f25bac2484c2-X",  // Uni uyo dues
+            public_key: "FLWPUBK_TEST-75cfa2b8961d3a564466483124fae55c-X",  // Uni uyo dues
             tx_ref: "UDIN163211393985331",  //txn created by you
             amount: 2400,    //amt to be paid  
             currency: "NGN",   //cureency accepting
