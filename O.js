@@ -64,12 +64,12 @@ window.onload = function (){
           function makePayment() {
             FlutterwaveCheckout({
             public_key: "FLWPUBK_TEST-75cfa2b8961d3a564466483124fae55c-X",  // Uni uyo dues
-            tx_ref: "UDIN163211393985331",  //txn created by you
+            tx_ref: "UDIN163211398930012",  //txn created by you
             amount: 2400,    //amt to be paid  
             currency: "NGN",   //cureency accepting
             payment_options: "card",   
             customer: {
-            email: "saviourtom00@yahoo.com",   //cus email
+            email: "student@uniuyo.com",   //cus email
             phonenumber: " ",  //cus phone number
             name: "16/BA/IN/300-Tom Saviour Monday",
             },
