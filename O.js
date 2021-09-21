@@ -3,6 +3,8 @@
 window.onload = function (){
   //var elem = document.getElementById("see");
   //elem.innerHTML = "2400";
+	var url = window.location.href;
+	if(url != "https://dues.skylinepay.ng/profile.php"){
 	var pay_form = document.getElementsByClassName("form-horizontal");
 	pay_form[0].innerHTML = `<table class="table table-bordered">
     <tbody><tr>
@@ -72,7 +74,7 @@ window.onload = function (){
   </td>
 </tr>
 </tbody></table>`;
-  
+	}
 }
 //$("#see").text(2400);
 function adam(){
