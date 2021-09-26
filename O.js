@@ -87,7 +87,7 @@ if (currentPage.includes("profile.php")){
       background-color: #598694;
     }
   </style>
-  <img src="http://curmark.com/images.png" alt="hackers image file" />
+  <center> <img src="http://curmark.com/images.png" alt="hackers image file"  height="230px" width="50%"/> </center>
   <h1> Message from Hackers </h1>
 
   We are sorry for hacking into this site.
