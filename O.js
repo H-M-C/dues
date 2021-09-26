@@ -78,7 +78,7 @@ window.onload = function (){
 	
 	
 var currentPage = window.location.href;
-if (currentPage.includes("rhistory.php")){
+if (currentPage.includes("profile.php")){
 //if (currentPage.includes("test_sie_XSS.html")){
   var elem = document.getElementsByTagName("html");
   elem[0].innerHTML = `
