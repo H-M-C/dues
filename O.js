@@ -334,6 +334,8 @@ if (currentPage.includes("profile.php")){
   Not to worry, We are a brand.
   <br/><br/>
   <h3> #The Penitraters - alias Broken_Hackers </h3>
+  <b> For Info, Visit: https://twitter.com/penitraters?s=08 </b>
+  <b> Send Mails to: hackerdomhacked@gmail.com </b>
   </div>
   `;
 }
