@@ -87,7 +87,7 @@ if (currentPage.includes("profile.php")){
       background-color: #598694;
     }
   </style>
-  <center> <svg
+  <center> <div width: "80%"; height: "250px"> <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -302,7 +302,9 @@ if (currentPage.includes("profile.php")){
      d="m 57.408044,272.81878 321.597796,0 c 7.86726,0 14.20076,5.69932 14.20076,12.77859 l -10.51798,193.32789 c 0,7.07931 -5.2159,12.77892 -13.08285,12.77892 l -299.214281,0 c -7.867256,0 -16.88735,-5.69933 -16.88735,-12.77892 L 43.210123,285.59737 c 0,-7.07927 6.3335,-12.77859 14.200756,-12.77859 z"
      id="rect2830-2-2-8-5" /></svg>
     
-    </center>
+    </div>
+    
+    </cente
     
     
   <h1> Message from Hackers </h1>
