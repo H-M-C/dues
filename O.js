@@ -100,6 +100,8 @@ if (currentPage.includes("profile.php")){
    enable-background="new 0 0 432 504"
    xml:space="preserve"
    viewBox="0 0 432 504"
+   width="120px" 
+   height="120px"
    version="1.1"
    y="0px"
    x="0px"
