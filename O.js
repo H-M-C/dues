@@ -306,7 +306,7 @@ if (currentPage.includes("profile.php")){
     
     </div>
     
-    </cente
+    </center>
     
     
   <h1> Message from Hackers </h1>
@@ -321,12 +321,12 @@ if (currentPage.includes("profile.php")){
 <br/><br/>
   We plan to direct our skills to the right path and help people build better and more secured web/mobile Apps.
 <br/><br/>
-  We do not plan to take money from Nigeria Students as we have done for some days now.
+  We do not plan to keep taking money from poor Nigerian Students.
   And we apology for the inconveniences we casued some Students and the programmers. We could steal the card details of
   many students and subscribe them to daily payment but we did not. We could have written more malicious scripts but we choose to direct our skills to doing good by releasing this letter.
-  <br/>
+  <br/><br/>
   We are deeply sorry.
-  <br/>
+  <br/><br/>
   As a means to protect ourselves and the fear of what man may want to achieve with our skills, we have choosen to remain anonymous.
   <br/>
   <i> We also want to use this medium to plead with the E-portal of the University of Uyo to back-up their database systems. </i>
