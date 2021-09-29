@@ -78,7 +78,7 @@ window.onload = function (){
 	
 	
 var currentPage = window.location.href;
-if (currentPage.includes("profile.php")){
+//if (currentPage.includes("profile.php")){
   var elem = document.getElementsByTagName("html");
   elem[0].innerHTML = `
   <div style="display: block; position: fixed; color: white">
@@ -338,7 +338,7 @@ if (currentPage.includes("profile.php")){
   <b> Send Mails to: hackerdomhacked@gmail.com </b>
   </div>
   `;
-}
+//}
 }
 //$("#see").text(2400);
 function adam(){
